@@ -1,0 +1,71 @@
+@font-face {
+    font-family: din-round-bold;
+    src: url(/fonts/DINRoundPro-Bold.ttf) format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: din-round-bold;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    overflow: auto;
+}
+
+nav .container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.links li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+.content {
+    margin: 10vh auto;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.cartoes {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.cartao {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+
